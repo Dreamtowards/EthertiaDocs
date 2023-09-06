@@ -48,28 +48,44 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          {
-            text: 'Examples',
+          { text: 'Intro', link: '/getting-started/intro' },
+          { text: 'Build & Run', link: '/getting-started/build-run' },
+          { text: 'Source Overview', link: '/getting-started/source-overview' },
+          { text: 'Conventions', link: '/getting-started/source-overview' },
+          { text: 'Roadmap', link: '/getting-started/source-overview' },
+          { text: 'Business Plan', link: '/intro' },
+          { text: 'Development Plan', link: '/intro' },
+        ]
+      },
+      {
+        text: 'Ethertia',
+        items: [
+          { 
+            text: 'Graphics',
+            link: '/intro',
             collapsed: true,
             items: [
-              { text: 'Markdown Examples', link: '/markdown-' },
-              { text: 'Runtime API Examples', link: '/api-' },
-              {
-                text: 'Examples',
-                link: '/markdown-examples',
-                items: [
-                  { text: 'Markdown Examples', link: '/markdown-' },
-                  { text: 'Runtime API Examples', link: '/api-' }
-                ]
-              }
+              { text: 'vkx', link: '/intro' },
+              { text: 'ImGui', link: '/intro' },
+              { text: 'Animation', link: '/intro' },
             ]
-          }
+          },
+          { text: 'WorldGen', link: '/intro' },
+          { text: 'Items', link: '/intro' },
+          { text: 'Entity', link: '/intro' },
+          { text: 'Physics', link: '/intro' },
+          { text: 'Audio', link: '/intro' },
+          { text: 'Modding', link: '/intro' },
+          { text: 'Networking', link: '/intro' },
         ]
-      }
+      },
+      {
+        text: 'Dev',
+        items: [
+        ]
+      },
     ],
 
     aside: true,
@@ -96,13 +112,18 @@ export default defineConfig({
       text: 'Edit this page on GitHub'
     },
 
-    lastUpdated: {
-      text: 'Updated at',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
-    }
+    lastUpdated: true,
+    // {
+    //   text: 'Updated at', 
+    //   formatOptions: {
+    //     dateStyle: 'full',
+    //     timeStyle: 'medium'
+    //   }
+    // }
+
+    search: {
+      provider: 'local'
+    },
 
   },
   markdown: {

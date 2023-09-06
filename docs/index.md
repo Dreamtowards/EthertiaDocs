@@ -2,10 +2,13 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+
 hero:
-  name: "EthertiaDocs"
-  text: "Ethertia Documentations"
-  tagline: My great project tagline
+  name: "Ethertia Docs"
+  # image:
+  #   light: /res/logo-col.png
+  text: "References & Documentations"
+  tagline: References & Documentations
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,8 +18,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - icon: 🛠️
+    title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: sth
+    linkText: Learn more
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C

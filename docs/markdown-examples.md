@@ -1,85 +1,60 @@
 # Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+[full list of markdown extensions](https://vitepress.dev/guide/markdown).
 
-## Syntax Highlighting
+[full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
-**Input**
 
-````
-```js{4}
+::: tip
+Sth `in` there
+:::
+
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
+
+
+
+
+
+::: code-group
+
+```js [config.js]
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
+  // ...
+}
+
+export default config
+```
+
+```js [Sth] :line-numbers
 export default {
   data () {
     return {
-      msg: 'Highlighted!'
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+      msg: 'Focused!' // [!code focus]
+      msg: 'Error', // [!code error]
+      msg: 'Warning' // [!code warning]
     }
   }
 }
 ```
-````
 
-**Output**
+```ts [config.ts]
+import type { UserConfig } from 'vitepress'
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
+const config: UserConfig = {
+  // ...
 }
+
+export default config
 ```
 
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
 :::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
