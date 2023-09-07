@@ -30,7 +30,7 @@ export default defineConfig({
       { text: 'Guide', link: '/guide' },
       { text: 'Discussions', link: 'https://elytra.dev' },
       {
-        text: 'Dropdown Menu',
+        text: 'About',
         items: [
           {
             text: 'Section A Title',
@@ -84,6 +84,13 @@ export default defineConfig({
       {
         text: 'Dev',
         items: [
+          { 
+            text: 'blog23', 
+            collapsed: true,
+            items: [
+              { text: '9.6 bugfix: ImGui vulkan Error: "RenderPass incompatible"', link: '/blog23/9.6-bugfix-imgui-renderpass-incompatible' },
+            ]
+          },
         ]
       },
     ],
