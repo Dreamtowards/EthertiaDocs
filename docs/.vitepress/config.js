@@ -48,6 +48,7 @@ export default defineConfig({
               { text: 'Build & Run', link: '/intro/build-run' },
               { text: 'Source Overview', link: '/intro/source-overview' },
               { text: 'Join Development', link: '/intro/join-dev' },
+              { text: 'Coding Spec', link: '/intro/coding-spec' },
             ]
           },
           { 
@@ -58,7 +59,7 @@ export default defineConfig({
               { text: 'Business Plan', link: '/intro/business-plan' },
             ]
           },
-          { text: 'Showcase', link: '/intro/showcase' },
+          { text: 'Showcase', link: '/intro/showcase/' },
           { text: 'All Versions', link: '/intro/versions' },
           { text: 'About', link: '/intro/about' },
         ]
@@ -66,20 +67,57 @@ export default defineConfig({
       {
         text: 'Gameplay',
         items: [
-          { text: 'Gamemodes', link: '/gameplay/intro' },
-          { text: 'Items', link: '/gameplay' },
-          { text: 'Mobs', link: '/gameplay' },
-          { text: 'Recipes', link: '/gameplay' },
-          { text: 'Biomes', link: '/gameplay' },
-          { text: 'Commands', link: '/gameplay' },
+          { 
+            text: 'Gamemodes', 
+            link: '/gameplay/intro',
+            collapsed: true,
+            items: [
+              { text: 'Survival', link: '/gameplay/gamemode/survival-mode' },
+              { text: 'Hardcore', link: '/gameplay/gamemode/survival-mode' },
+              { text: 'Creative', link: '/gameplay/gamemode/survival-mode' },
+              { text: 'Spectator', link: '/gameplay/gamemode/survival-mode' },
+            ]
+          },
+          {
+            text: 'Items', 
+            link: '/gameplay/items',
+            collapsed: true,
+            items: [
+              { text: 'Stick', link: '/gameplay/materials/' },
+              { text: 'Fishing Rod', link: '/gameplay/items/fishing-rod' },
+            ]
+          },
+          { 
+            text: 'Materials', 
+            link: '/gameplay/materials',
+            collapsed: true,
+            items: [
+              { text: 'Grass', link: '/gameplay/materials/grass' },
+              { text: 'Stone', link: '/gameplay/materials/stone' },
+              { text: 'Cobblestone', link: '/Gameplay/Materials/Cobblestone' },
+              { text: 'Coal Ore', link: '/gameplay/materials/' },
+              { text: 'Oak Log', link: '/gameplay/materials/' },
+              { text: 'Oak Plank', link: '/gameplay/materials/' },
+              { text: 'Oak Leaves', link: '/gameplay/materials/' },
+            ]
+          },
+          { text: 'Mobs', link: '/gameplay/mobs' },
+          { text: 'Recipes', link: '/gameplay/recipes' },
+          { text: 'Biomes', link: '/gameplay/biomes' },
+          // { text: 'Achivements', link: '/gameplay/achivements' },
+          // { text: 'Enchantments', link: '/gameplay/enchantment' },
+          // { text: 'Effects', link: '/gameplay/effects' },
+          { text: 'Commands', link: '/gameplay/commands' },
+          { text: 'Difficulty', link: '/gameplay/difficulty' },
+          { text: 'Editor', link: '/gameplay/editor' },
           { 
             text: 'Tutorials', 
             link: '/gameplay/tutorials',
             collapsed: true,
             items: [
-              { text: 'Servers', link: '/getting-started/build-run' },
-              { text: 'Assets', link: '/getting-started/build-run' },
-              { text: 'Mods', link: '/getting-started/build-run' },
+              { text: 'Servers', link: '/gameplay/tutorials/servers' },
+              { text: 'Assets', link: '/gameplay/tutorials/assets' },
+              { text: 'Mods', link: '/gameplay/tutorials/mods' },
             ]
           },
         ]
@@ -95,6 +133,7 @@ export default defineConfig({
               { text: 'Vulkan', link: '/intro' },
               { text: 'ImGui', link: '/intro' },
               { text: 'Animation', link: '/intro' },
+              { text: 'RayTracing', link: '/graphics/raytracing' },
             ]
           },
           {
@@ -111,6 +150,7 @@ export default defineConfig({
           { text: 'Audio', link: '/intro' },
           { text: 'Modding', link: '/intro' },
           { text: 'Networking', link: '/intro' },
+          { text: 'VR', link: '/intro' },
         ]
       },
       {
@@ -148,12 +188,12 @@ export default defineConfig({
 
     aside: true,
     outline: {
-      level: 2,
+      level: [2, 3],
       label: "On this page"
     },
 
     nav: [
-      { text: 'Showcase', link: '/intro/showcase' },
+      { text: 'Showcase', link: '/intro/showcase/' },
       // { text: 'Discussions', link: 'https://elytra.dev' },
       { text: 'Dev', link: '/' },
       {
@@ -161,13 +201,16 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: 'Discord', link: '...' },
-              { text: 'Github', link: '...' },
+              { text: 'Official Site', link: 'https://ethertia.com' },
+              { text: 'Documentations', link: 'https://docs.ethertia.com' },
+              { text: 'Discord', link: 'https://github.com/Dreamtowards/Ethertia' },
+              { text: 'Github', link: 'https://discord.gg/k7ssbPJQnp' },
               { text: 'YouTube', link: '...' },
-              { text: 'Bilibili', link: '...' }
+              { text: 'QQ', link: 'https://jq.qq.com/?_wv=1027&k=tgM29oDM' },
+              { text: 'Bilibili', link: 'https://space.bilibili.com/19483166' },
             ]
           },
-          { text: 'Examples', link: '/markdown-examples' },
+          { text: 'Roadmap', link: 'https://jq.qq.com/?_wv=1027&k=tgM29oDM' },
         ]
       },
       
@@ -175,9 +218,9 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Dreamtowards/Ethertia' },
-      { icon: 'discord', link: 'https://github.com/Dreamtowards/Ethertia', ariaLabel: 'cool link' },
-      { icon: 'youtube', link: 'https://github.com/Dreamtowards/Ethertia' },
-      { icon: 'twitter', link: 'https://github.com/Dreamtowards/Ethertia' },
+      { icon: 'discord', link: 'https://discord.gg/k7ssbPJQnp', ariaLabel: 'cool link' },
+      { icon: 'youtube', link: '/' },
+      { icon: 'twitter', link: '/' },
     ],
     
     

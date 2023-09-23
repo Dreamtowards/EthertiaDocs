@@ -137,3 +137,36 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+
+
+
+:root {
+  --vp-layout-max-width: 1920px;
+  /* scroll-behavior: smooth; */
+}
+.content-container {
+  width: 90%;
+  max-width: 1440px !important;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .VPSidebar {
+      /* padding-left: 32px !important; */
+      width: var(--vp-sidebar-width) !important;  /* fixed: width collapse problem */
+  }
+  .VPContent.has-sidebar {
+      padding-left: var(--vp-sidebar-width) !important;
+      padding-right: none !important;
+  }
+  .VPNavBar.has-sidebar > .container > .content {
+      padding-left: var(--vp-sidebar-width) !important;
+      padding-right: 32px !important;
+  }
+  .VPNavBar.has-sidebar .curtain {
+      width: calc(100% - var(--vp-sidebar-width) - 32px) !important;
+  }
+  .VPNavBar.has-sidebar > .container > .title {
+      width: var(--vp-sidebar-width) !important;
+  }
+}

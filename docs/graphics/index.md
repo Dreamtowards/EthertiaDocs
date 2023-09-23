@@ -17,7 +17,7 @@ in 3D Rendering and World System (Entity, Physics, Chunk..)
 Although `OpenGL, DirectX, Metal` and `Vulkan (with NegativeY Viewport)`, and `Unity, Unreal` are Left-Hand Coordinate System.  
 (OpenGL is internally Left-Handed (after clip-space), but glm::perspective / glOrthof usually generates a negate-z projection matrix)
 
-<img src="res/fig-coord-sys-ls-sofw.jpg">
+![](res/fig-coord-sys-ls-sofw.jpg)
 :::
 
 ::: details Reason

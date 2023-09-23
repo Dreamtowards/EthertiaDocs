@@ -17,8 +17,8 @@ hero:
       text: Devlopment Docs
       link: /intro/
     - theme: alt
-      text: Watch the film
-      link: /
+      text: Showcase
+      link: /intro/showcase/
     - theme: alt
       text: Roadmap & BP
       link: /intro/roadmap
