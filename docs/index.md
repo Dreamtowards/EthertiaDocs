@@ -31,7 +31,7 @@ features:
     # linkText: Learn more
   - icon: 🏗️ # 🏗️ 🔨
     title: Demolish and Build
-    details: Experience the ultimate sandbox freedom - tear down barriers and construct your dreams.
+    details: Experience the ultimate sandbox freedom - .
   - icon: 👫
     title: Social Engagement  # Multiplayer Interaction
     details: Collaborate with friends in building, exploring, and surviving. Create wonders together in multiplayer adventures.
@@ -42,8 +42,8 @@ features:
     title:  Modding System  # Support for Mod Customization
     details: Unleash your creativity and alter game rules and experiences with mod support.
   - icon: 🚀
-    title: Advanced Technology   # Advanced Technology Support / Pioneering Technology
-    details: We utilize cutting-edge Vulkan and PhysX technology for top-notch visuals and physics.
+    title: Proprietary Engine   # Advanced Technology Support / Pioneering Technology
+    details: We utilize extreme Vulkan and PhysX technology for enhanced visuals and physics.
 
   # - icon: 🤗
   #   title: Community Collaborative Development    # Fantasy Terrain Generation / Growing Together

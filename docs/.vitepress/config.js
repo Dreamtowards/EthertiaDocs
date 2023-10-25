@@ -56,12 +56,59 @@ export default defineConfig({
             link: '/intro/roadmap', 
             collapsed: true,
             items: [
+              { text: 'Development Plan', link: '/intro/dev-plan' },
               { text: 'Business Plan', link: '/intro/business-plan' },
             ]
           },
           { text: 'Showcase', link: '/intro/showcase/' },
           { text: 'All Versions', link: '/intro/versions' },
           { text: 'About', link: '/intro/about' },
+        ]
+      },
+      {
+        text: 'Journal',
+        items: [
+          { text: 'Overview', link: '/dev/env' },
+          { text: 'Windowing', link: '/dev/window' },
+        ]
+      },
+      {
+        text: 'Development',
+        items: [
+          { 
+            text: 'Rendering',
+            link: '/graphics/',
+            collapsed: true,
+            items: [
+              { text: 'Vulkan', link: '/graphics/vulkan' },
+              { text: 'ImGui', link: '/intro' },
+              { text: 'Animation', link: '/intro' },
+              { text: 'RayTracing', link: '/graphics/raytracing' },
+            ]
+          },
+          {
+            text: 'Physics', 
+            link: '/physics/intro',
+            collapsed: true,
+            items: [
+
+            ]
+          },
+          { 
+            text: 'Voxel', 
+            link: '/voxel/',
+            collapsed: true,
+            items: [
+              { text: 'Sparse Voxel Octree', link: '/voxel/svo' },
+            ]
+          },
+          { text: 'ECS', link: '/intro' },
+          { text: 'WorldGen', link: '/intro' },
+          { text: 'Items', link: '/intro' },
+          { text: 'Audio', link: '/intro' },
+          { text: 'Modding', link: '/intro' },
+          { text: 'Networking', link: '/intro' },
+          { text: 'VR', link: '/misc/vr' },
         ]
       },
       {
@@ -120,37 +167,6 @@ export default defineConfig({
               { text: 'Mods', link: '/gameplay/tutorials/mods' },
             ]
           },
-        ]
-      },
-      {
-        text: 'Development',
-        items: [
-          { 
-            text: 'Graphics',
-            link: '/graphics/',
-            collapsed: true,
-            items: [
-              { text: 'Vulkan', link: '/intro' },
-              { text: 'ImGui', link: '/intro' },
-              { text: 'Animation', link: '/intro' },
-              { text: 'RayTracing', link: '/graphics/raytracing' },
-            ]
-          },
-          {
-            text: 'Physics', 
-            link: '/physics/intro',
-            collapsed: true,
-            items: [
-
-            ]
-          },
-          { text: 'WorldGen', link: '/intro' },
-          { text: 'Items', link: '/intro' },
-          { text: 'Entity', link: '/intro' },
-          { text: 'Audio', link: '/intro' },
-          { text: 'Modding', link: '/intro' },
-          { text: 'Networking', link: '/intro' },
-          { text: 'VR', link: '/intro' },
         ]
       },
       {
