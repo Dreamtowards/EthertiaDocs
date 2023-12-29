@@ -17,10 +17,6 @@ _[Ethertia BP 2023.9]_
 
 ### 1.2 开发团队
 
-Name | J | A
----  | --- | ---
-Eldrine Le Prismarine | Founder, Dev | Graphics, Gameplay, WorldGen
-Thaumstrial | 
 
 ### 1.3 目标和愿景
 

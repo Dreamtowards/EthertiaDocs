@@ -49,7 +49,6 @@ export default defineConfig({
             link: '/intro/roadmap', 
             collapsed: true,
             items: [
-              { text: 'Development Plan', link: '/intro/dev-plan' },
               { text: 'Business Plan', link: '/intro/business-plan' },
             ]
           },
@@ -63,16 +62,16 @@ export default defineConfig({
         items: [
           { 
             text: 'Overview',
-            link: '/dev/intro',
+            link: '/spec/',
           },
-          { 
-            text: 'Voxel', 
-            link: '/voxel/',
-            collapsed: true,
-            items: [
-              { text: 'Sparse Voxel Octree', link: '/voxel/svo' },
-            ]
-          },
+          // { 
+          //   text: 'Voxel', 
+          //   link: '/voxel/',
+          //   collapsed: true,
+          //   items: [
+          //     { text: 'Sparse Voxel Octree', link: '/voxel/svo' },
+          //   ]
+          // },
           // { text: 'WorldGen', link: '/intro' },
           // { text: 'Items', link: '/intro' },
           // { text: 'Modding', link: '/intro' },
@@ -84,16 +83,12 @@ export default defineConfig({
         text: 'Development',
         items: [
           { 
-            text: 'Intro',
-            link: '/dev/intro',
-            collapsed: true,
-            items: [
-              { text: 'Build & Run', link: '/intro/build-run' },
-              { text: 'Source Overview', link: '/intro/source-overview' },
-              { text: 'Join Development', link: '/intro/join-dev' },
-              { text: 'Coding Spec', link: '/intro/coding-spec' },
-            ]
+            text: 'Overview',
+            link: '/dev/',
           },
+          { text: 'Build & Run', link: '/dev/build-run' },
+          { text: 'Source Overview', link: '/dev/source-overview' },
+          { text: 'Join Development', link: '/dev/join-dev' },
           { 
             text: 'Devlog',
             link: '/dev/intro',
@@ -108,14 +103,7 @@ export default defineConfig({
         items: [
           { 
             text: 'Gamemodes', 
-            link: '/gameplay/intro',
-            collapsed: true,
-            items: [
-              { text: 'Survival', link: '/gameplay/gamemode/survival-mode' },
-              { text: 'Hardcore', link: '/gameplay/gamemode/survival-mode' },
-              { text: 'Creative', link: '/gameplay/gamemode/survival-mode' },
-              { text: 'Spectator', link: '/gameplay/gamemode/survival-mode' },
-            ]
+            link: '/gameplay/gamemode'
           },
           {
             text: 'Items', 
@@ -126,23 +114,23 @@ export default defineConfig({
               { text: 'Fishing Rod', link: '/gameplay/items/fishing-rod' },
             ]
           },
-          { 
-            text: 'Materials', 
-            link: '/gameplay/materials',
-            collapsed: true,
-            items: [
-              { text: 'Grass', link: '/gameplay/materials/grass' },
-              { text: 'Stone', link: '/gameplay/materials/stone' },
-              { text: 'Cobblestone', link: '/Gameplay/Materials/Cobblestone' },
-              { text: 'Coal Ore', link: '/gameplay/materials/' },
-              { text: 'Oak Log', link: '/gameplay/materials/' },
-              { text: 'Oak Plank', link: '/gameplay/materials/' },
-              { text: 'Oak Leaves', link: '/gameplay/materials/' },
-            ]
-          },
-          { text: 'Mobs', link: '/gameplay/mobs' },
-          { text: 'Recipes', link: '/gameplay/recipes' },
-          { text: 'Biomes', link: '/gameplay/biomes' },
+          // { 
+          //   text: 'Materials', 
+          //   link: '/gameplay/materials',
+          //   collapsed: true,
+          //   items: [
+          //     { text: 'Grass', link: '/gameplay/materials/grass' },
+          //     { text: 'Stone', link: '/gameplay/materials/stone' },
+          //     { text: 'Cobblestone', link: '/Gameplay/Materials/Cobblestone' },
+          //     { text: 'Coal Ore', link: '/gameplay/materials/' },
+          //     { text: 'Oak Log', link: '/gameplay/materials/' },
+          //     { text: 'Oak Plank', link: '/gameplay/materials/' },
+          //     { text: 'Oak Leaves', link: '/gameplay/materials/' },
+          //   ]
+          // },
+          // { text: 'Mobs', link: '/gameplay/mobs' },
+          // { text: 'Recipes', link: '/gameplay/recipes' },
+          // { text: 'Biomes', link: '/gameplay/biomes' },
           // { text: 'Achivements', link: '/gameplay/achivements' },
           // { text: 'Enchantments', link: '/gameplay/enchantment' },
           // { text: 'Effects', link: '/gameplay/effects' },

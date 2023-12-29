@@ -1,4 +1,13 @@
 
+
+<img src="./showcase/res/2023-04-01_4.55.42PM.png" style="height: 200px; display: inline-block;">&nbsp;
+<img src="./showcase/res/2023-04-02_12.00.09PM.png" style="height: 200px; display: inline-block;">
+<br>
+<img src="./showcase/res/ss230403-1.png" style="height: 100px; display: inline-block;">&nbsp;
+<img src="https://github.com/Dreamtowards/Ethertia/raw/main/run/screenshots/_figures/23u07.png" style="height: 100px; display: inline-block;">&nbsp;
+<img src="https://github.com/Dreamtowards/Ethertia/raw/main/run/screenshots/qs230310-1.png" style="height: 100px; display: inline-block;">&nbsp;
+<img src="./showcase/res/2023-04-01_11.32.28AM.png" style="height: 100px; display: inline-block;">&nbsp;
+
 Ethertia · 以太效应 是一款沙盒生存类游戏，玩家可以在完全可修改的, 程序生成的, 无限大小的3D世界中生存与建造。
 
 我们致力于实现 "Minecraft 的自由度 + GTAV 的细节与物理 + VRChat 的多人交互与沉浸感"，
@@ -8,6 +17,10 @@ Ethertia · 以太效应 是一款沙盒生存类游戏，玩家可以在完全�
 我们面向创作者，
 
 我们面向开发者，使用高性能的Rust程序语言 + 可扩展的 Bevy引擎，开源，欢迎开发者与创作者通过Mod开发挥洒其创意，期待下一个"暮色森林"
+
+平台: Windows, <del>Linux, MacOS, Android, iOS</del>
+
+游戏本身是免费和开源的。您可在官网下载完整版游戏，并尽情游玩。
 
 ## 核心功能
 
@@ -22,39 +35,5 @@ Ethertia · 以太效应 是一款沙盒生存类游戏，玩家可以在完全�
 
 ### 4. VR与动作捕追踪
 
-## 付费方式
-
-游戏本身是免费和开源的。您可在官网下载完整版游戏，并尽情游玩。
-
-### 1. 正版账户
-
-如果您需要官方的服务器联网验证功能，那么您需要正版账户。
-
-因为网络服务是不可控的，需要维护的。当然，验证程序和协议也是开源的，因此您可以使用第三方验证平台。
-
-这也是一种支持和捐款方式。
-
-### 2. 第三方多人服务器 按时计费/
 
 
-
-## 愿景与原则
-
-
-### 相关链接
-
-沙盒体素写实：<a>RisingWorld</a>, <a>No Man's Sky</a>, 
-
-致敬开源: <a>Blender</a>
-
-## 关于本文档
-
-分为5个部分
-1. Introduction 概览  
-引入部分，基本介绍
-2. Specifications 规范  
-文章，各系统与技术的说明
-3. Development 开发  
-教程，如何开发
-4. Gameplay 游戏性内容  
-后续可能转移到Wiki

@@ -19,19 +19,16 @@ Ethertia的专有引擎采用了Vulkan, PhysX等技术,追求更好的渲染和�
 
 
 
-## 游戏玩法
 
+### 相关链接
 
-### 生存模式
+Sandbox Voxel Games:
+[RisingWorld](https://www.rising-world.net/), 
+[No Man's Sky](https://www.nomanssky.com/), 
 
-### 创造模式
+Rust/Bevy Games: 
+[Veloren](https://github.com/veloren/veloren/blob/v0.8.0/voxygen/src/audio/music.rs)
+[Hytopia](https://creators.hytopia.com/docs/about-hytopia)
 
-### 多人
-
-
-## 平台
-
-### PC版
-
-## 开发
-
+FOSS: 
+[Blender]()
