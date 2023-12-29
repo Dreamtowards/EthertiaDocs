@@ -7,7 +7,7 @@ export default defineConfig({
   titleTemplate: ':title - Ethertia Docs', 
   lang: 'en-US',
   head: [
-    ['link', { rel: 'icon', href: '/res/logo-bl.png' }],
+    ['link', { rel: 'icon', href: '/assets/logo-bl.png' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID' }],
     ['script', {},
     `window.dataLayer = window.dataLayer || [];
@@ -31,8 +31,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     //siteTitle: false,
     logo: { 
-        light: "/res/logo-bl.png",
-        dark: "/res/logo-wt.png",
+        light: "/assets/logo-bl.png",
+        dark: "/assets/logo-wt.png",
         alt: ""
     },
 
@@ -66,25 +66,6 @@ export default defineConfig({
             link: '/dev/intro',
           },
           { 
-            text: 'Rendering',
-            link: '/graphics/',
-            collapsed: true,
-            items: [
-              { text: 'Vulkan', link: '/graphics/vulkan' },
-              { text: 'ImGui', link: '/intro' },
-              { text: 'Animation', link: '/intro' },
-              { text: 'RayTracing', link: '/graphics/raytracing' },
-            ]
-          },
-          {
-            text: 'Physics', 
-            link: '/physics/intro',
-            collapsed: true,
-            items: [
-
-            ]
-          },
-          { 
             text: 'Voxel', 
             link: '/voxel/',
             collapsed: true,
@@ -92,13 +73,11 @@ export default defineConfig({
               { text: 'Sparse Voxel Octree', link: '/voxel/svo' },
             ]
           },
-          { text: 'ECS', link: '/intro' },
-          { text: 'WorldGen', link: '/intro' },
-          { text: 'Items', link: '/intro' },
-          { text: 'Audio', link: '/intro' },
-          { text: 'Modding', link: '/intro' },
-          { text: 'Networking', link: '/intro' },
-          { text: 'VR', link: '/misc/vr' },
+          // { text: 'WorldGen', link: '/intro' },
+          // { text: 'Items', link: '/intro' },
+          // { text: 'Modding', link: '/intro' },
+          // { text: 'Networking', link: '/intro' },
+          // { text: 'VR', link: '/misc/vr' },
         ]
       },
       {
@@ -167,9 +146,9 @@ export default defineConfig({
           // { text: 'Achivements', link: '/gameplay/achivements' },
           // { text: 'Enchantments', link: '/gameplay/enchantment' },
           // { text: 'Effects', link: '/gameplay/effects' },
-          { text: 'Commands', link: '/gameplay/commands' },
-          { text: 'Difficulty', link: '/gameplay/difficulty' },
-          { text: 'Editor', link: '/gameplay/editor' },
+          // { text: 'Commands', link: '/gameplay/commands' },
+          // { text: 'Difficulty', link: '/gameplay/difficulty' },
+          // { text: 'Editor', link: '/gameplay/editor' },
           { 
             text: 'Tutorials', 
             link: '/gameplay/tutorials',
@@ -186,12 +165,11 @@ export default defineConfig({
         text: 'Miscellaneous',
         items: [
           { 
-            text: 'blog', 
+            text: 'Blog', 
             collapsed: true,
             items: [
               { text: '9.5 VitePress', link: '/blog23/9.5-vitepress.md' },
-              { text: '9.6 bugfix: ImGui vulkan Error: "RenderPass incompatible"', link: '/blog23/9.6-bugfix-imgui-renderpass-incompatible' },
-              { text: '9.10 json libs', link: '/blog23/9.10-json-libs.md' },
+              
             ]
           },
           // { text: 'Roadmap', link: '/getting-started/source-overview' },
