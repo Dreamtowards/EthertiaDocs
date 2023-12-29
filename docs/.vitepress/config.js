@@ -43,13 +43,6 @@ export default defineConfig({
           { 
             text: 'Overview', 
             link: '/intro/',
-            collapsed: true,
-            items: [
-              { text: 'Build & Run', link: '/intro/build-run' },
-              { text: 'Source Overview', link: '/intro/source-overview' },
-              { text: 'Join Development', link: '/intro/join-dev' },
-              { text: 'Coding Spec', link: '/intro/coding-spec' },
-            ]
           },
           { 
             text: 'Roadmap', 
@@ -66,15 +59,12 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Journal',
+        text: 'Specification',
         items: [
-          { text: 'Overview', link: '/dev/env' },
-          { text: 'Windowing', link: '/dev/window' },
-        ]
-      },
-      {
-        text: 'Development',
-        items: [
+          { 
+            text: 'Overview',
+            link: '/dev/intro',
+          },
           { 
             text: 'Rendering',
             link: '/graphics/',
@@ -109,6 +99,29 @@ export default defineConfig({
           { text: 'Modding', link: '/intro' },
           { text: 'Networking', link: '/intro' },
           { text: 'VR', link: '/misc/vr' },
+        ]
+      },
+      {
+        text: 'Development',
+        items: [
+          { 
+            text: 'Intro',
+            link: '/dev/intro',
+            collapsed: true,
+            items: [
+              { text: 'Build & Run', link: '/intro/build-run' },
+              { text: 'Source Overview', link: '/intro/source-overview' },
+              { text: 'Join Development', link: '/intro/join-dev' },
+              { text: 'Coding Spec', link: '/intro/coding-spec' },
+            ]
+          },
+          { 
+            text: 'Devlog',
+            link: '/dev/intro',
+            collapsed: true,
+            items: [
+            ]
+          },
         ]
       },
       {
@@ -181,15 +194,6 @@ export default defineConfig({
               { text: '9.10 json libs', link: '/blog23/9.10-json-libs.md' },
             ]
           },
-          { 
-            text: 'vkx', 
-            link: '/libvkx/',
-            collapsed: true,
-            items: [
-              { text: '9.6 bugfix: ImGui vulkan Error: "RenderPass incompatible"', link: '/blog23/9.6-bugfix-imgui-renderpass-incompatible' },
-            ]
-          },
-          { text: 'stdx', link: '/getting-started/source-overview' },
           // { text: 'Roadmap', link: '/getting-started/source-overview' },
           // { text: 'Business Plan', link: '/intro' },
           // { text: 'Development Plan', link: '/intro' },
