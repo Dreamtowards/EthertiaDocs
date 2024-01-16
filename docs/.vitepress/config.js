@@ -86,9 +86,9 @@ export default defineConfig({
             text: 'Overview',
             link: '/dev/',
           },
-          { text: 'Build & Run', link: '/dev/build-run' },
-          { text: 'Source Overview', link: '/dev/source-overview' },
-          { text: 'Join Development', link: '/dev/join-dev' },
+          { text: 'Getting Started', link: '/dev/getting-started' },
+          // { text: 'Source Overview', link: '/dev/source-overview' },
+          // { text: 'Join Development', link: '/dev/join-dev' },
           { 
             text: 'Devlog',
             link: '/dev/intro',
@@ -189,8 +189,8 @@ export default defineConfig({
             items: [
               { text: 'Official Site', link: 'https://ethertia.com' },
               { text: 'Documentations', link: 'https://docs.ethertia.com' },
-              { text: 'Discord', link: 'https://github.com/Dreamtowards/Ethertia' },
-              { text: 'Github', link: 'https://discord.gg/k7ssbPJQnp' },
+              { text: 'Discord', link: 'https://discord.gg/k7ssbPJQnp' },
+              { text: 'Github', link: 'https://github.com/Dreamtowards/Ethertum' },
               { text: 'YouTube', link: '...' },
               { text: 'QQ', link: 'https://jq.qq.com/?_wv=1027&k=tgM29oDM' },
               { text: 'Bilibili', link: 'https://space.bilibili.com/19483166' },
@@ -203,9 +203,9 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Dreamtowards/Ethertia' },
+      { icon: 'github', link: 'https://github.com/Dreamtowards/Ethertum' },
       { icon: 'discord', link: 'https://discord.gg/k7ssbPJQnp', ariaLabel: 'cool link' },
-      { icon: 'youtube', link: '/' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@dreamtowards' },
       { icon: 'twitter', link: '/' },
     ],
     
