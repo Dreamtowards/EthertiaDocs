@@ -1,5 +1,0 @@
-
-# Build & Run
-
-## Windows
-

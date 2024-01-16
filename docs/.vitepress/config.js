@@ -108,11 +108,6 @@ export default defineConfig({
           {
             text: 'Items', 
             link: '/gameplay/items',
-            collapsed: true,
-            items: [
-              { text: 'Stick', link: '/gameplay/materials/' },
-              { text: 'Fishing Rod', link: '/gameplay/items/fishing-rod' },
-            ]
           },
           // { 
           //   text: 'Materials', 
