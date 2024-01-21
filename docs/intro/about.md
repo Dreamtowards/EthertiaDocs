@@ -23,6 +23,7 @@ Sandbox Voxel Games/Projects:
 [Upvoid](https://upvoid.com/), 
 [VoxelFarm](https://procworld.blogspot.com/2010/11/from-voxels-to-polygons.html), 
 [Enshrouded](https://enshrouded.com/), 
+[Eco](https://play.eco/),
 
 Rust/Bevy Games:   
 [Veloren](https://github.com/veloren/veloren/blob/v0.8.0/voxygen/src/audio/music.rs), 
